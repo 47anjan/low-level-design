@@ -2,7 +2,7 @@ const MemeCard = ({ meme }) => {
   return (
     <article
       key={meme?.url}
-      className="rounded-md cursor-pointer h-fit bg-[#1c1f26] p-5 border border-[#c2caf529]"
+      className="rounded-md cursor-pointer h-fit bg-[#1c1f26] p-4 border border-[#c2caf529]"
     >
       <img
         src={meme?.preview[2]}
